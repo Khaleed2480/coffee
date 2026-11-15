@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #FBF9F5;
+    color: #181615;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+.font-serif-editorial {
+  font-family: 'Newsreader', Georgia, serif;
+}
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #FBF9F5;
+    color: #181615;
+    font-family: 'Inter', sans-serif;
+  }
+}
